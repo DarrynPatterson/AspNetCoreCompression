@@ -1,6 +1,21 @@
 ﻿{
   "version": "1.0.0-*",
-
+  "language": "English",
+  "authors": [ "Darryn Patterson" ],
+  "copyright": "Copyright 2016",
+  "title": "AspNetCoreCompression",
+  "description": "AspNetCoreCompression is an ASP.NET Core compression solution designed to GZip the http responses for all requests which accept GZip encoding.",
+  "projectUrl": "https://github.com/DarrynPatterson/AspNetCoreCompression",
+  "packOptions": {
+    "licenseUrl": "https://github.com/DarrynPatterson/AspNetCoreCompression/blob/master/LICENSE",
+    "tags": [ "Compression", "GZip" ],
+    "owners": [ "Darryn Patterson" ],
+    "summary": "AspNetCore middleware used to compress http responses for all requests which accept GZip encoding.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DarrynPatterson/AspNetCoreCompression"
+    }
+  },
   "dependencies": {
     "NETStandard.Library": "1.6.0",
     "Microsoft.AspNetCore.Http.Abstractions": "1.0.0"
